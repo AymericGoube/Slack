@@ -1,0 +1,262 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-image: url("../gallery/nasa-header-image.jpg");
+  background-repeat: no-repeat;
+}
+
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#mobilelist{
+  display: none;
+}
+#menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 15px;
+}
+#logosimplon{
+  width: 30px;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+#menu li a{
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  margin-right: 12px;
+}
+#menu li{
+}
+#menu li a:hover{
+  transition: 0.5;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: auto;
+}
+#menu li #create:hover{
+  border-color: white;
+}
+#logo{
+}
+#create{
+  border-color: rgba(255,255,255, 0.5);
+  border-radius: 2px;
+  border-style: solid;
+  color: rgba(255,255,255, 0.4);
+  background-color: transparent;
+  padding-bottom: 10px;
+
+}
+#coucou{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 8%;
+}
+h3{
+  font-weight: 900;
+  color: white;
+  font-size: 57px;
+
+}
+.txtoblique{
+  font-style: oblique;
+}
+.souligne{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -5%;
+  margin-left: 40%;
+  margin-right: 30%;
+}
+.description{
+  text-align: center;
+}
+.description p{
+  color: white;
+  font-size: 22px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.formulaire{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 15px 15px 15px;
+  margin: auto;
+  width: 40%;
+  border-radius: 10px;
+
+}
+.formulaire #info{
+  border-radius: 5px;
+  border-style: solid;
+  color: rgb(85, 84, 89);
+  font-size: 20px;
+  height: 50px;
+}
+.formulaire #envoi{
+  border-color: rgb(86, 182, 139);
+  background-color: rgb(86, 182, 139);
+  border-style: solid;
+  font-size: 19px;
+  border-radius: 10px;
+}
+.formulaire #envoi a{
+  text-decoration: none;
+  color: white;
+}
+#envoi:hover{
+  transition: 0.5;
+  opacity: 0.8;
+}
+.formulaire p{
+  color: white;
+}
+.formulaire p a{
+  color: white;
+}
+#nomprenom{
+  display: flex;
+  justify-content: flex-end;
+}
+#nomprenom p a{
+  color: white;
+  text-decoration: none;
+}
+#nomprenom p i{
+  color: white;
+}
+#nomprenom p a:hover{
+  text-decoration: underline;
+}
+.basdepage{
+  border-color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  background: -moz-linear-gradient(top, rgba(96,96,96,0.07) 0%, rgba(56,56,56,0.07) 7%, rgba(28,28,28,0.2) 12%, rgba(15,15,15,0.44) 21%, rgba(0,0,0,0.72) 31%, rgba(0,0,0,1) 41%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(96,96,96,0.07) 0%,rgba(56,56,56,0.07) 7%,rgba(28,28,28,0.2) 12%,rgba(15,15,15,0.44) 21%,rgba(0,0,0,0.72) 31%,rgba(0,0,0,1) 41%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(96,96,96,0.07) 0%,rgba(56,56,56,0.07) 7%,rgba(28,28,28,0.2) 12%,rgba(15,15,15,0.44) 21%,rgba(0,0,0,0.72) 31%,rgba(0,0,0,1) 41%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12606060', endColorstr='#000000',GradientType=0 );
+}
+.basdepage ul a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+.basdepage .titreul{
+  color: white;
+}
+.basdepage li{
+  list-style: none;
+  padding: 5px;
+}
+.basdepage li a:hover{
+  color: white;
+  opacity: 0.7;
+}
+hr{
+  width: 100%;
+  color: white;
+  height: 1px;
+  opacity: 0.5;
+}
+.foter {
+  background-color: rgba(33,33,33 ,1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foter a{
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+}
+.foter a #slacklogo {
+  width: 80%;
+}
+.foter #salut {
+  display: flex;
+  flex-direction: row;
+}
+
+.foter #salut a{
+  padding: 20px;
+}
+.foter #salut a:hover{
+  color: white;
+  transition: 0.5;
+}
+@media screen and (max-width: 860px)
+{
+  #dimensionpage{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  nav #menu{
+    display: none;
+  }
+  nav #mobilelist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+  }
+  nav #mobilelist li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    padding: 5px;
+  }
+  nav #mobilelist #menumobile{
+    border: 2px solid;
+    border-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    padding: 5px;
+  }
+  nav #mobilelist #menumobile a{
+  }
+  #coucou{
+    text-align: center;
+    display: flex;
+  }
+  #coucou h3{
+      font-size: 2em;
+  }
+  #coucou h3 br{
+    display: none;
+  }
+div .souligne{
+  display: none;
+}
+.description{
+  display: none;
+}
+.formulaire{
+  width: 100%;
+  background-color: #322E30;
+}
+.formulaire #envoi{
+height: 50px;
+width: 87%;
+margin-top: 10px;
+}
+#nomprenom{
+  display: none;
+}
+}
